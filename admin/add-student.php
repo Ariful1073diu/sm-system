@@ -49,9 +49,9 @@
                 <label for="class">Student Class</label>
                 <select name="class" class="form-control" id="class" required="">
                     <option value="">Select</option>
-                    <option value="1th">1st</option>
-                    <option value="2th">2nd</option>
-                    <option value="3th">3rd</option>
+                    <option value="1st">1st</option>
+                    <option value="2nd">2nd</option>
+                    <option value="3rd">3rd</option>
                     <option value="4th">4th</option>
                     <option value="5th">5th</option>
                 </select>

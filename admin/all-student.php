@@ -14,6 +14,7 @@
                 <th>ID</th>
                 <th>Name</th>
                 <th>Roll</th>
+                <th>Class</th>
                 <th>City</th>
                 <th>Contract</th>
                 <th>photo</th>
@@ -29,12 +30,13 @@
                                         <td><?php echo $row['id']; ?></td>
                                         <td><?php echo ucwords($row['name']); ?></td>
                                         <td><?php echo $row['roll']; ?></td>
+                                        <td><?php echo $row['class']; ?></td>
                                         <td><?php echo ucwords($row['city']); ?></td>
                                         <td><?php echo $row['contract']; ?></td>
                         
                                         <td><img style="width: 100px" src="student_images/<?php echo $row['photo']; ?>" alt=""></td>
                                         <td>
-                                            <a href="update_student.php" class="btn btn-xs btn-warning"><i class="fa fa-pencil"></i>  Edit</a>
+                                            <a href="index.php?page=update_student&id=<?php echo ($row['id']); ?>" class="btn btn-xs btn-warning"><i class="fa fa-pencil"></i>  Edit</a>
                                             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                                             <a href="delete_student.php?id=<?php echo ($row['id']); ?>" class="btn btn-xs btn-danger"><i class="fa fa-trash"></i>  Delete</a>
                                         </td>

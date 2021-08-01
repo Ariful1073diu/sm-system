@@ -9,6 +9,5 @@
         echo "Error: " . $result . "<br>" . $link->error;
       }
     
-    
-    //header('location:index.php?page=all-student')
+       header('location:index.php?page=all-student')
  ?>

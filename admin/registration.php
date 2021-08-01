@@ -57,7 +57,7 @@
               if($result)
               {
                 $_SESSION['date_insert_success'] = "Data insert Success";
-                move_uploaded_file($_FILES['photo']['tmp_name'],'images/'.$photo_name);
+                move_uploaded_file($_FILES['photo']['tmp_name'],'Images/'.$photo_name);
                 
                 header('location: registration.php');
               }else
