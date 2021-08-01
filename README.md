@@ -1,2 +1,2 @@
 # sm-system
-web base project using php
+using php
